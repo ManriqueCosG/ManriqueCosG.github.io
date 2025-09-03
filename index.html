@@ -22,13 +22,11 @@
           <li><a href="#sobre-mi">Sobre mí</a></li>
           <li><a href="#habilidades">Habilidades</a></li>
           <li><a href="#proyectos">Proyectos</a></li>
-          <li><a href="#experiencia">Experiencia</a></li>
           <li><a href="#contacto">Contacto</a></li>
         </ul>
         <div class="social-links">
           <a href="https://github.com/tuusuario" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
           <a href="https://linkedin.com/in/tuusuario" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-          <a href="https://twitter.com/tuusuario" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
         </div>
         <div class="nav-toggle">
           <span></span>
@@ -75,19 +73,18 @@
 </header>
   </header>
 
- <!-- Sección Sobre Mí Mejorada -->
-<section id="sobre-mi" class="py-16 bg-gray-50">
-  <div class="container mx-auto px-4">
-    <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">Sobre Mí</h2>
-    
-    <div class="flex flex-col lg:flex-row items-center gap-12">
+   <!-- Sección Sobre Mí -->
+  <section id="sobre-mi">
+    <div class="container">
+      <h2>Sobre Mí</h2>
+      
       <!-- Texto de presentación -->
-      <div class="lg:w-2/3 text-gray-700">
+      <div class="presentation-text">
         <p class="text-lg leading-relaxed mb-4">
-          Soy <span class="font-semibold text-gray-900">Manrique Cos García</span>, estudiante de Grado Superior de Informática especializado en 
+          Soy <span class="font-semibold text-gray-900">Manrique Cos García</span>, tengo titulación de Grado Superior de Informática en 
           <span class="text-blue-600">Desarrollo de Aplicaciones Web (DAW)</span> y 
           <span class="text-blue-600">Desarrollo de Aplicaciones Multiplataforma (DAM)</span>. 
-          Actualmente, curso mis estudios en el <strong>IES Francisco de Goya</strong> y en el 
+          Actualmente, curso mis estudios en el 
           <strong>IES Ingeniero de la Cierva</strong>.
         </p>
         <p class="text-lg leading-relaxed mb-6">
@@ -96,51 +93,48 @@
           <span class="font-medium">resolución de problemas</span> y una gran capacidad de adaptación. 
           Tengo total disponibilidad para proyectos y trabajo en equipo.
         </p>
-
-        <!-- Detalles -->
-        <div class="space-y-4">
-          <div class="flex items-center gap-3">
-            <i class="fas fa-graduation-cap text-blue-600 text-xl"></i>
-            <span>Grado Superior de Informática - IES Francisco de Goya / IES Ingeniero de la Cierva</span>
-          </div>
-          <div class="flex items-center gap-3">
-            <i class="fas fa-map-marker-alt text-blue-600 text-xl"></i>
-            <span>Ceutí, Murcia, España</span>
-          </div>
-          <div class="flex items-center gap-3">
-            <i class="fas fa-envelope text-blue-600 text-xl"></i>
-            <a href="mailto:manriquecos2005@gmail.com" class="hover:text-blue-700 transition">manriquecos2005@gmail.com</a>
-          </div>
-          <div class="flex items-center gap-3">
-            <i class="fas fa-clock text-blue-600 text-xl"></i>
-            <span>Disponibilidad completa para proyectos</span>
-          </div>
-          <div class="flex items-center gap-3">
-            <i class="fab fa-linkedin text-blue-600 text-xl"></i>
-            <a href="https://linkedin.com/in/manrique-cos-garcia-99739a337" target="_blank" class="hover:text-blue-700 transition">LinkedIn</a>
-          </div>
-        </div>
       </div>
 
-      <!-- Stats visuales -->
-      <div class="lg:w-1/3 flex flex-col items-center gap-6">
-        <div class="grid grid-cols-3 gap-6 text-center">
-          <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
-            <h3 class="text-2xl font-bold text-blue-600">Nivel de inglés</h3>
-            <p class="text-gray-600 text-sm">B1</p>
+      <!-- Información organizada en categorías -->
+      <div class="skills-container">
+        <div class="skill-category">
+          <h3><i class="fas fa-graduation-cap"></i> Titulación</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <i class="fas fa-code"></i>
+              <span>DAW - Desarrollo Web // IES Francisco de Goya</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-mobile-alt"></i>
+              <span>DAM - Multiplataforma // IES Ingeniero de la Cierva (Actual)</span>
+            </div>
           </div>
-          <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
-            <h3 class="text-2xl font-bold text-blue-600">Disponibilidad</h3>
-            <p class="text-gray-600 text-sm">100%</p>
-          </div>
-          
         </div>
-        
-        
+
+        <div class="skill-category">
+          <h3><i class="fas fa-address-book"></i> Información de Contacto</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Calle Huete, 51 Ceutí Murcia</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-phone"></i>
+              <span>(+34) 684334354</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:manriquecos2005@gmail.com" class="skill-link">manriquecos2005@gmail.com</a>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-linkedin"></i>
+              <a href="https://linkedin.com/in/manrique-cos-garcia-99739a337" target="_blank" class="skill-link">LinkedIn</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
 
 
@@ -328,51 +322,24 @@
 
   <!-- Sección Contacto -->
   <section id="contacto">
-    <div class="container">
       <h2>¿Trabajamos juntos?</h2>
-      <div class="contact-content">
-        <div class="contact-info">
-          <h3>Información de Contacto</h3>
-          <div class="contact-item">
-            <i class="fas fa-envelope"></i>
-            <div>
-              <h4>Email</h4>
-              <p>juanperez@example.com</p>
-            </div>
+          <div style="text-align: center; padding: 50px 0;">
+            <button 
+              onclick="descargarCV()" 
+              class="btn btn-primary" 
+              style="padding: 15px 30px; font-size: 18px; border-radius: 10px; cursor: pointer;">
+              Descargar Curriculum
+            </button>
           </div>
-          <div class="contact-item">
-            <i class="fas fa-map-marker-alt"></i>
-            <div>
-              <h4>Ubicación</h4>
-              <p>Madrid, España</p>
-            </div>
-          </div>
-          <div class="contact-item">
-            <i class="fas fa-clock"></i>
-            <div>
-              <h4>Disponibilidad</h4>
-              <p>Lunes a Viernes, 9:00 - 18:00</p>
-            </div>
-          </div>
-        </div>
-
-        <form class="contact-form">
-          <div class="form-group">
-            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
-          </div>
-          <div class="form-group">
-            <input type="email" id="email" name="email" placeholder="Tu email" required>
-          </div>
-          <div class="form-group">
-            <input type="text" id="asunto" name="asunto" placeholder="Asunto" required>
-          </div>
-          <div class="form-group">
-            <textarea id="mensaje" name="mensaje" placeholder="Tu mensaje" rows="5" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
-        </form>
-      </div>
-    </div>
+        
+        <script>
+          function descargarCV() {
+            const link = document.createElement('a');
+            link.href = 'Curriculum Manrique Cos Garcia.pdf'; // El PDF debe estar en la carpeta 'public'
+            link.download = 'Curriculum.pdf';
+            link.click();
+          }
+        </script>
   </section>
 
   <!-- Footer -->

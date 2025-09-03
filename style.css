@@ -366,6 +366,113 @@ section h2::after {
   line-height: 1.8;
 }
 
+/* Centrar y mejorar la presentación del sobre mí */
+#sobre-mi .presentation-text {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 2rem auto;
+  color: #cccccc;
+}
+
+#sobre-mi .presentation-text p {
+  margin-bottom: 1rem;
+}
+
+#sobre-mi .skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: stretch;
+}
+
+#sobre-mi .skill-category {
+  background: rgba(20, 20, 20, 0.75);
+  border: none;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+  flex: 1 1 300px;
+  max-width: 400px;
+  min-width: 280px;
+}
+
+#sobre-mi .skill-category h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+}
+
+#sobre-mi .skill-category h3 i {
+  color: #10B981;
+}
+
+#sobre-mi .skills-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+#sobre-mi .skill-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  padding: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+#sobre-mi .skill-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(16, 185, 129, 0.18);
+}
+
+#sobre-mi .skill-item i {
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: rgba(16, 185, 129, 0.12);
+  border: 1px solid rgba(16, 185, 129, 0.25);
+  color: #10B981;
+  flex-shrink: 0;
+}
+
+#sobre-mi .skill-item span,
+#sobre-mi .skill-item .skill-link {
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+#sobre-mi .skill-item .skill-link:hover {
+  color: #10B981;
+  transition: color 0.3s ease;
+}
+
+/* Responsive para pantallas pequeñas */
+@media (max-width: 768px) {
+  #sobre-mi .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #sobre-mi .skill-category {
+    width: 100%;
+    max-width: 100%;
+    min-width: auto;
+  }
+}
+
 /* Proyectos */
 #proyectos .projects-grid {
   display: grid;
@@ -528,8 +635,16 @@ section h2::after {
   height: 20px;
 }
 
-.skill-item span {
+.skill-item span,
+.skill-item .skill-link {
   font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.skill-item .skill-link:hover {
+  color: #10B981;
+  transition: color 0.3s ease;
 }
 
 .skill-level {
