@@ -15,7 +15,7 @@
     <nav class="navbar">
       <div class="nav-container">
         <div class="nav-logo">
-          <h1>Λ</h1>
+          <h1>MC/</h1>
         </div>
         <ul class="nav-menu">
           <li><a href="#inicio">Inicio</a></li>
@@ -25,6 +25,11 @@
           <li><a href="#experiencia">Experiencia</a></li>
           <li><a href="#contacto">Contacto</a></li>
         </ul>
+        <div class="social-links">
+          <a href="https://github.com/tuusuario" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/tuusuario" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://twitter.com/tuusuario" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
         <div class="nav-toggle">
           <span></span>
           <span></span>
@@ -33,73 +38,111 @@
       </div>
     </nav>
     
-    <div class="hero">
-      <div class="hero-content">
-        <div class="hero-left">
-          <div class="hero-title">
-            <h1>Desarrollador</h1>
-            <h2>Soft / Front End</h2>
-            <h3>- Back End</h3>
-          </div>
-          <div class="hero-buttons">
-            <a href="#contacto" class="btn btn-primary">Contáctame</a>
-            <a href="#proyectos" class="btn btn-secondary">Mis desarrollos</a>
-          </div>
-        </div>
-        <div class="hero-right">
-          <div class="hero-symbol">
-            <div class="curly-brace left">{</div>
-            <div class="lambda-name">
-              <span class="lambda-symbol">Λ</span>
-              <span class="full-name">ndrique Cos</span>
-            </div>
-            <div class="curly-brace right">}</div>
-          </div>
-        </div>
+    <header class="hero bg-gray-900 text-white min-h-screen flex items-center">
+  <div class="hero-content container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
+    
+    <!-- Texto izquierda -->
+    <div class="hero-left max-w-lg text-center md:text-left">
+      <div class="hero-title">
+        <h1>Desarrollador Web</h1>
+        <h2>Back / Front End</h2>
+        <br><br>
+      </div>
+      <div class="hero-buttons">
+        <a href="#contacto" class="btn btn-primary">Contáctame</a>
+        <a href="#proyectos" class="btn btn-secondary">Mis desarrollos</a>
       </div>
     </div>
+    
+    <!-- ASCII derecha -->
+    <div class="mt-10 md:mt-0 bg-black/60 p-4 rounded-xl shadow-lg font-mono text-xs leading-tight text-green-400 whitespace-pre overflow-auto max-w-full">
+  <pre>
+     ______ ______      
+    |\   _ \  _   \    
+    \ \  \\\__\ \  \   
+     \ \  \\|__| \  \  
+      \ \  \    \ \  \ 
+       \ \__\    \ \__\
+        \|__|     \|__|
+                      
+                      
+                      
+
+       << MANRIQUE COS >>
+  </pre>
+    </div>
+  </div>
+</header>
   </header>
 
-  <!-- Sección Sobre Mí -->
-  <section id="sobre-mi">
-    <div class="container">
-      <h2>Sobre Mí</h2>
-      <div class="sobre-mi-content">
-        <div class="sobre-mi-text">
-          <p>Soy un desarrollador web apasionado con 2 años de experiencia creando aplicaciones web modernas y escalables. Me especializo en el desarrollo full-stack utilizando tecnologías como React, Laravel y Node.js.</p>
-          <p>Mi enfoque se centra en escribir código limpio, mantenible y en crear experiencias de usuario excepcionales. Disfruto resolviendo problemas complejos y aprendiendo nuevas tecnologías constantemente.</p>
-          <div class="sobre-mi-details">
-            <div class="detail-item">
-              <i class="fas fa-graduation-cap"></i>
-              <span>Ingeniería Informática - Universidad XYZ</span>
-            </div>
-            <div class="detail-item">
-              <i class="fas fa-map-marker-alt"></i>
-              <span>Madrid, España</span>
-            </div>
-            <div class="detail-item">
-              <i class="fas fa-clock"></i>
-              <span>Disponible para proyectos freelance</span>
-            </div>
+ <!-- Sección Sobre Mí Mejorada -->
+<section id="sobre-mi" class="py-16 bg-gray-50">
+  <div class="container mx-auto px-4">
+    <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">Sobre Mí</h2>
+    
+    <div class="flex flex-col lg:flex-row items-center gap-12">
+      <!-- Texto de presentación -->
+      <div class="lg:w-2/3 text-gray-700">
+        <p class="text-lg leading-relaxed mb-4">
+          Soy <span class="font-semibold text-gray-900">Manrique Cos García</span>, estudiante de Grado Superior de Informática especializado en 
+          <span class="text-blue-600">Desarrollo de Aplicaciones Web (DAW)</span> y 
+          <span class="text-blue-600">Desarrollo de Aplicaciones Multiplataforma (DAM)</span>. 
+          Actualmente, curso mis estudios en el <strong>IES Francisco de Goya</strong> y en el 
+          <strong>IES Ingeniero de la Cierva</strong>.
+        </p>
+        <p class="text-lg leading-relaxed mb-6">
+          Me apasiona la tecnología y la programación, con especial interés en crear soluciones eficientes y funcionales. 
+          Cuento con habilidades clave como <span class="font-medium">comunicación efectiva</span>, 
+          <span class="font-medium">resolución de problemas</span> y una gran capacidad de adaptación. 
+          Tengo total disponibilidad para proyectos y trabajo en equipo.
+        </p>
+
+        <!-- Detalles -->
+        <div class="space-y-4">
+          <div class="flex items-center gap-3">
+            <i class="fas fa-graduation-cap text-blue-600 text-xl"></i>
+            <span>Grado Superior de Informática - IES Francisco de Goya / IES Ingeniero de la Cierva</span>
           </div>
-        </div>
-        <div class="sobre-mi-stats">
-          <div class="stat-item">
-            <h3>2+</h3>
-            <p>Años de experiencia</p>
+          <div class="flex items-center gap-3">
+            <i class="fas fa-map-marker-alt text-blue-600 text-xl"></i>
+            <span>Ceutí, Murcia, España</span>
           </div>
-          <div class="stat-item">
-            <h3>15+</h3>
-            <p>Proyectos completados</p>
+          <div class="flex items-center gap-3">
+            <i class="fas fa-envelope text-blue-600 text-xl"></i>
+            <a href="mailto:manriquecos2005@gmail.com" class="hover:text-blue-700 transition">manriquecos2005@gmail.com</a>
           </div>
-          <div class="stat-item">
-            <h3>5+</h3>
-            <p>Tecnologías dominadas</p>
+          <div class="flex items-center gap-3">
+            <i class="fas fa-clock text-blue-600 text-xl"></i>
+            <span>Disponibilidad completa para proyectos</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <i class="fab fa-linkedin text-blue-600 text-xl"></i>
+            <a href="https://linkedin.com/in/manrique-cos-garcia-99739a337" target="_blank" class="hover:text-blue-700 transition">LinkedIn</a>
           </div>
         </div>
       </div>
+
+      <!-- Stats visuales -->
+      <div class="lg:w-1/3 flex flex-col items-center gap-6">
+        <div class="grid grid-cols-3 gap-6 text-center">
+          <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+            <h3 class="text-2xl font-bold text-blue-600">Nivel de inglés</h3>
+            <p class="text-gray-600 text-sm">B1</p>
+          </div>
+          <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+            <h3 class="text-2xl font-bold text-blue-600">Disponibilidad</h3>
+            <p class="text-gray-600 text-sm">100%</p>
+          </div>
+          
+        </div>
+        
+        
+      </div>
     </div>
-  </section>
+  </div>
+</section>
+
+
 
   <!-- Sección Habilidades Técnicas -->
   <section id="habilidades">
@@ -112,30 +155,31 @@
             <div class="skill-item">
               <i class="fab fa-react"></i>
               <span>React</span>
-              <div class="skill-level">
-                <div class="skill-bar" style="width: 90%"></div>
-              </div>
+              
             </div>
             <div class="skill-item">
               <i class="fab fa-js-square"></i>
               <span>JavaScript</span>
-              <div class="skill-level">
-                <div class="skill-bar" style="width: 85%"></div>
-              </div>
+              
             </div>
             <div class="skill-item">
               <i class="fab fa-html5"></i>
               <span>HTML5</span>
-              <div class="skill-level">
-                <div class="skill-bar" style="width: 95%"></div>
-              </div>
+              
             </div>
             <div class="skill-item">
               <i class="fab fa-css3-alt"></i>
               <span>CSS3</span>
-              <div class="skill-level">
-                <div class="skill-bar" style="width: 90%"></div>
-              </div>
+              
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon" aria-label="Tailwind CSS" title="Tailwind CSS">
+                <svg viewBox="0 0 48 48" width="24" height="24" fill="currentColor" aria-hidden="true">
+                  <path d="M24 12c-6.4 0-10.4 3.2-12 9.6 2.4-3.2 5.2-4.4 8.4-3.6 1.8.5 3.1 1.9 4.5 3.3 2.3 2.4 5 5.1 10.1 5.1 6.4 0 10.4-3.2 12-9.6-2.4 3.2-5.2 4.4-8.4 3.6-1.8-.5-3.1-1.9-4.5-3.3-2.3-2.4-5-5.1-10.1-5.1ZM12 27.6c-6.4 0-10.4 3.2-12 9.6 2.4-3.2 5.2-4.4 8.4-3.6 1.8.5 3.1 1.9 4.5 3.3 2.3 2.4 5 5.1 10.1 5.1 6.4 0 10.4-3.2 12-9.6-2.4 3.2-5.2 4.4-8.4 3.6-1.8-.5-3.1-1.9-4.5-3.3-2.3-2.4-5-5.1-10.1-5.1Z"/>
+                </svg>
+              </span>
+              <span>Tailwind CSS</span>
+              
             </div>
           </div>
         </div>
@@ -146,23 +190,14 @@
             <div class="skill-item">
               <i class="fab fa-php"></i>
               <span>PHP/Laravel</span>
-              <div class="skill-level">
-                <div class="skill-bar" style="width: 80%"></div>
-              </div>
             </div>
             <div class="skill-item">
               <i class="fab fa-node-js"></i>
               <span>Node.js</span>
-              <div class="skill-level">
-                <div class="skill-bar" style="width: 75%"></div>
-              </div>
             </div>
             <div class="skill-item">
               <i class="fas fa-database"></i>
               <span>MySQL</span>
-              <div class="skill-level">
-                <div class="skill-bar" style="width: 85%"></div>
-              </div>
             </div>
           </div>
         </div>
@@ -173,16 +208,22 @@
             <div class="skill-item">
               <i class="fab fa-git-alt"></i>
               <span>Git</span>
-              <div class="skill-level">
-                <div class="skill-bar" style="width: 85%"></div>
-              </div>
             </div>
             <div class="skill-item">
               <i class="fab fa-docker"></i>
               <span>Docker</span>
-              <div class="skill-level">
-                <div class="skill-bar" style="width: 70%"></div>
-              </div>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-cube"></i>
+              <span>Blender</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-fire"></i>
+              <span>Firebase</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-database"></i>
+              <span>Firestore</span>
             </div>
           </div>
         </div>
@@ -190,7 +231,9 @@
 
       <!-- Habilidades Blandas -->
       <div class="soft-skills">
-        <h3><i class="fas fa-users"></i> Habilidades Blandas</h3>
+        <h3><i class="fas fa-users"></i> Otros</h3>
+        <br>
+        
         <div class="soft-skills-grid">
           <div class="soft-skill-item">
             <i class="fas fa-comments"></i>
@@ -218,167 +261,37 @@
     <div class="container">
       <h2>Proyectos Destacados</h2>
       <div class="projects-grid">
-        <article class="project-card">
-          <div class="project-image">
-            <img src="https://via.placeholder.com/400x250/667eea/ffffff?text=Gestor+Tareas" alt="Gestor de Tareas">
-            <div class="project-overlay">
-              <a href="#" class="btn btn-small">Ver Demo</a>
-              <a href="#" class="btn btn-small">Ver Código</a>
-            </div>
-          </div>
-          <div class="project-content">
-            <h3>Gestor de Tareas</h3>
-            <p>Sistema CRUD completo para gestión de tareas con PHP y MySQL. Incluye autenticación de usuarios, categorías y prioridades.</p>
-            <div class="project-tech">
-              <span class="tech-tag">PHP</span>
-              <span class="tech-tag">MySQL</span>
-              <span class="tech-tag">Bootstrap</span>
-            </div>
+        <article class="project-card vertical">
+          <h3 class="project-title">Gestor de Tareas // ZenTasker</h3>
+          <img class="project-photo" src="img\logo_lila-removebg-preview.png" alt="Gestor de Tareas">
+          <div class="project-actions">
+            <a href="https://zentaskerpro.netlify.app/" class="btn btn-primary">Ver Demo</a>
+            <a href="https://github.com/ManriqueCosG/ZenTasker" class="btn btn-secondary">Ver Código</a>
           </div>
         </article>
 
-        <article class="project-card">
-          <div class="project-image">
-            <img src="https://via.placeholder.com/400x250/764ba2/ffffff?text=Kanban+Board" alt="Tablero Kanban">
-            <div class="project-overlay">
-              <a href="#" class="btn btn-small">Ver Demo</a>
-              <a href="#" class="btn btn-small">Ver Código</a>
-            </div>
-          </div>
-          <div class="project-content">
-            <h3>Tablero Kanban</h3>
-            <p>Aplicación React con funcionalidad de drag & drop para gestión de proyectos. Persistencia de datos en LocalStorage.</p>
-            <div class="project-tech">
-              <span class="tech-tag">React</span>
-              <span class="tech-tag">JavaScript</span>
-              <span class="tech-tag">CSS3</span>
-            </div>
-          </div>
+        <article class="project-card vertical">
+          <h3 class="project-title">App Shopify // Compraventa de ropa</h3>
+          <img class="project-photo" src="img\asa.jpeg" alt="Tablero Kanban">
+          
         </article>
 
-        <article class="project-card">
-          <div class="project-image">
-            <img src="https://via.placeholder.com/400x250/667eea/ffffff?text=E-Commerce" alt="E-Commerce">
-            <div class="project-overlay">
-              <a href="#" class="btn btn-small">Ver Demo</a>
-              <a href="#" class="btn btn-small">Ver Código</a>
-            </div>
-          </div>
-          <div class="project-content">
-            <h3>E-Commerce Platform</h3>
-            <p>Plataforma de comercio electrónico completa con carrito de compras, pagos y panel de administración.</p>
-            <div class="project-tech">
-              <span class="tech-tag">Laravel</span>
-              <span class="tech-tag">Vue.js</span>
-              <span class="tech-tag">Stripe</span>
-            </div>
+        <article class="project-card vertical">
+          <h3 class="project-title">E‑Commerce</h3>
+          <img class="project-photo" src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop" alt="E‑Commerce">
+          <div class="project-actions">
+            <a href="#" class="btn btn-primary">Ver Demo</a>
+            <a href="#" class="btn btn-secondary">Ver Código</a>
           </div>
         </article>
       </div>
 
-      <!-- Otros Proyectos -->
-      <div class="other-projects">
-        <h3>Otros Proyectos</h3>
-        <div class="other-projects-grid">
-          <div class="mini-project">
-            <i class="fas fa-mobile-alt"></i>
-            <h4>App de Notas</h4>
-            <p>React Native con sincronización en la nube</p>
-          </div>
-          <div class="mini-project">
-            <i class="fas fa-chart-line"></i>
-            <h4>Dashboard Analytics</h4>
-            <p>Vue.js con Chart.js y API REST</p>
-          </div>
-          <div class="mini-project">
-            <i class="fas fa-blog"></i>
-            <h4>Blog Personal</h4>
-            <p>Laravel con sistema de comentarios</p>
-          </div>
-        </div>
-      </div>
+     
     </div>
   </section>
 
-  <!-- Sección Experiencia Laboral -->
-  <section id="experiencia">
-    <div class="container">
-      <h2>Experiencia Laboral</h2>
-      <div class="timeline">
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <h3>Desarrollador Web Junior</h3>
-            <h4>TechCorp Solutions</h4>
-            <p class="timeline-date">Enero 2023 - Presente</p>
-            <ul>
-              <li>Desarrollo de aplicaciones web con React y Laravel</li>
-              <li>Mantenimiento de bases de datos MySQL</li>
-              <li>Colaboración en proyectos de equipo usando Git</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <h3>Desarrollador Frontend Freelance</h3>
-            <h4>Proyectos Independientes</h4>
-            <p class="timeline-date">Junio 2022 - Diciembre 2022</p>
-            <ul>
-              <li>Creación de landing pages responsivas</li>
-              <li>Optimización de sitios web existentes</li>
-              <li>Implementación de funcionalidades JavaScript</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Sección Formación -->
-  <section id="formacion">
-    <div class="container">
-      <h2>Formación</h2>
-      <div class="education-grid">
-        <div class="education-item">
-          <div class="education-icon">
-            <i class="fas fa-university"></i>
-          </div>
-          <div class="education-content">
-            <h3>Ingeniería Informática</h3>
-            <h4>Universidad XYZ</h4>
-            <p class="education-date">2019 - 2023</p>
-            <p>Especialización en desarrollo de software y sistemas web</p>
-          </div>
-        </div>
-
-        <div class="education-item">
-          <div class="education-icon">
-            <i class="fas fa-laptop-code"></i>
-          </div>
-          <div class="education-content">
-            <h3>Bootcamp Full Stack</h3>
-            <h4>CodeAcademy</h4>
-            <p class="education-date">2022</p>
-            <p>Programa intensivo de 12 semanas en desarrollo web moderno</p>
-          </div>
-        </div>
-
-        <div class="education-item">
-          <div class="education-icon">
-            <i class="fas fa-certificate"></i>
-          </div>
-          <div class="education-content">
-            <h3>Certificaciones</h3>
-            <h4>Varias plataformas</h4>
-            <p class="education-date">2022 - 2023</p>
-            <p>AWS Cloud Practitioner, MongoDB Developer, React Developer</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  
+ 
 
   <!-- Sección Lo que estoy aprendiendo -->
   <section id="aprendiendo">
@@ -466,10 +379,7 @@
   <footer>
     <div class="container">
       <div class="footer-content">
-        <div class="footer-section">
-          <h3>Manrique Cos</h3>
-          <p>Desarrollador Web Full Stack apasionado por crear experiencias digitales excepcionales.</p>
-        </div>
+        
         <div class="footer-section">
           <h4>Enlaces Rápidos</h4>
           <ul>
@@ -479,18 +389,9 @@
             <li><a href="#contacto">Contacto</a></li>
           </ul>
         </div>
-        <div class="footer-section">
-          <h4>Redes Sociales</h4>
-          <div class="social-links">
-            <a href="https://github.com/tuusuario" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://linkedin.com/in/tuusuario" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://twitter.com/tuusuario" target="_blank"><i class="fab fa-twitter"></i></a>
-          </div>
-        </div>
+       
       </div>
-      <div class="footer-bottom">
-        <p>&copy; 2024 Manrique Cos. Todos los derechos reservados.</p>
-      </div>
+      
     </div>
   </footer>
 
