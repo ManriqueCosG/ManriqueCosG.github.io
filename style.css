@@ -833,6 +833,123 @@ footer .container {
   box-shadow: 0 8px 25px rgba(16, 185, 129, 0.4);
 }
 
+/* =========================
+   Sección de Contacto
+   ========================= */
+   #contacto .contact-form {
+    max-width: 600px;
+    margin: 2rem auto 0 auto;
+    padding: 2rem;
+    background: rgba(20, 20, 20, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(12px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  #contacto .contact-form:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 40px rgba(16, 185, 129, 0.25);
+  }
+  
+  #contacto .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  #contacto .form-group label {
+    display: block;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  #contacto .form-group input,
+  #contacto .form-group textarea {
+    width: 100%;
+    padding: 0.9rem 1rem;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 1rem;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  #contacto .form-group input:focus,
+  #contacto .form-group textarea:focus {
+    border-color: #10B981;
+    box-shadow: 0 0 8px rgba(16, 185, 129, 0.4);
+    outline: none;
+  }
+  
+  /* Botón Enviar */
+  #contacto .contact-form button[type="submit"] {
+    width: 100%;
+    padding: 1rem;
+    background: linear-gradient(135deg, #10B981, #065F46);
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 25px rgba(16, 185, 129, 0.3);
+  }
+  
+  #contacto .contact-form button[type="submit"]:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px rgba(16, 185, 129, 0.4);
+  }
+  
+  /* Botón Descargar CV */
+  #contacto .cv-download {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  #contacto .cv-download .btn-secondary {
+    color: #10B981;
+    background: transparent;
+    border: 2px solid #10B981;
+    padding: 0.9rem 2rem;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  #contacto .cv-download .btn-secondary:hover {
+    background: #10B981;
+    color: #0a0a0a;
+    transform: translateY(-3px);
+  }
+  
+  /* Texto inicial */
+  #contacto p.description {
+    text-align: center;
+    color: #cccccc;
+    max-width: 600px;
+    margin: 0 auto 2rem auto;
+    line-height: 1.6;
+    font-size: 1.1rem;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    #contacto .contact-form {
+      padding: 1.5rem;
+    }
+  
+    #contacto .form-group input,
+    #contacto .form-group textarea {
+      font-size: 0.95rem;
+      padding: 0.75rem 0.85rem;
+    }
+  }
+  
+
 /* Responsive */
 @media (max-width: 768px) {
   .hero-content {
